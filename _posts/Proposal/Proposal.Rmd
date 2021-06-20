@@ -1,0 +1,23 @@
+---
+title: "Proposal"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Motivation  
+The driving record of the suspect has always been an important clue to most criminal cases. Through the analysis of the movement of individual people, we can find the suspect's regular route and regular schedule which is the key in understanding patterns of their movements. Taking the GPS monitoring results of the company's employees as a whole can help us understand whether the company has organized group activities at a specific time, such as company team building or overtime, which leads to unexpected group behavior. This helps the police find out the suspect’s unusual travel time and destination.  
+As for the credit card and loyalty card consumption records can help us find out whether the suspect has suspiciously large expenditures, and investigate whether it is possible to purchase suspicious items as criminal tools of crime through the location and name of business of the purchased items.
+
+## Problem Statement  
+* Explore relations among department, job title, travel time, main travel routes, and spending locations and amounts.
+* Explore spatial and time biases among department and job title, and similarities in traffic pattern and expenditure pattern.  
+* Incorporate time series into consideration, build interactive visualizations to present traffic flow and traffic volume.  
+* Further investigate the destination of travel and expenditure to derive insights about whether there is suspicious consumer behavior.
+
+## Related Work  
+
+## Solution  
+To reveal the intuitive net work pattern, we will mainly use the ggraph package from R, which provides an flexible extension on the well-acclaimed ggplot2 package in R. In addition to providing the traffic flow between the various landmark nodes in the picture, we will also show the density of traffic, and provide users with visual detailed information through an interactive design. 

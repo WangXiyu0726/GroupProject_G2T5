@@ -1,0 +1,5 @@
+---
+title: "G2T5 - Group Project"
+site: distill::distill_website
+listing: posts
+---
